@@ -1,0 +1,30 @@
+{
+
+	"name": "role/roleprovider",
+    "description": "This is auth role helper",
+    "license": "MIT",
+    "type": "package",
+    "version" : "1.0",
+    "keywords" : ["Laravel","Role","permition","auth","authontecation","helper"],
+    "outhors" : [
+    	{
+    		"name"  : "Rami Awadallah",
+	    	"email" : "rami.moh.awadallah@gmail.com",
+	    	"homepage" : "ramiawadallah.com",
+    	}
+    ],
+
+    "require":{
+    	"laravelcollective/html": "^5.3.0",
+        "mcamara/laravel-localization": "^1.2"
+    },
+    "autoload":{
+    	"ps4":{
+    		"Role\\RoleProvider\\":"src/"
+    	}
+    },
+    "minimum-stability":"dev",
+
+
+
+}
